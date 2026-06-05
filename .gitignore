@@ -1,3 +1,5 @@
+dataset-calib-imu-static2.npy
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
