@@ -265,7 +265,7 @@ def main():
     df_1hz = pre.downsample(aligned_df, factor=200)
 
     # -- Build features (X) / Labels (y) --
-    # Allan deviation — noise floor characterization independent of regression
+    # Allan deviation — noise floor visual independent of regression
     plot_allan_deviation(df_1hz)
     # Build features and labels on the 1 Hz data
     features = generate_features(df_1hz)
