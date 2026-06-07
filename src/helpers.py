@@ -11,10 +11,6 @@ def import_data(file):
         'timestamp', 'gyro_x', 'gyro_y', 'gyro_z',
         'accel_x', 'accel_y', 'accel_z', 'temperature'
     ])
-
-    print(df.describe())
-    print(f"\nTemp range: {df['temperature'].min():.2f} to {df['temperature'].max():.2f} °C")
-    print(f"Duration: {(df['timestamp'].max() - df['timestamp'].min()) / 1e9 / 3600:.1f} hours")
     return df
 
 # These readings are static (a = 9.81 in z-dir, and gyro = 0.0 rads/s)

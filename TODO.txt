@@ -1,0 +1,11 @@
+[X] Working regression
+[] regression weight conversion -> physical bias values
+[] compare to allan variance plot
+[] Plotting of results
+
+
+
+pdb shortcut;
+
+for axis in results: print(f"{axis}: Ridge={results[axis]['Ridge']['r2']:.2f}, Lasso={results[axis]['Lasso']['r2']:.2f}")
+for axis in results: print(f"{axis}: Ridge={results[axis]['Ridge']['mse']:.2f}, Lasso={results[axis]['Lasso']['mse']:.2f}")
