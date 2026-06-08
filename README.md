@@ -43,6 +43,7 @@ python src/main.py
 
 ## Correction to Report / Ridge + Lasso Result
 Ridge vs. Lasso: Our Ridge and Lasso regression performed about equally, but we saw Lasso zero out all terms except √T and Ṫ. The similar performance suggests that the constructed feature set is pretty well-constructed, and the regularization is mainly preventing overfitting rather than doing model selection. However, the zeroed out terms signify that √T and Ṫ are most significant in the bias modeling of the IMU. 
-<img width="375" height="674" alt="image" src="https://github.com/user-attachments/assets/0e6b4518-6900-4111-9f10-6b144eeb6028" />
-
-Fig. 6: Lasso regression shows reduction of non-contributing terms to 0, while ridge regression keeps some smaller weights on the weaker contributing terms. Contributing terms (√T, Ṫ) have notably higher weight values.
+<div align="center">
+  <img width="375" height="674" alt="image" src="https://github.com/user-attachments/assets/0e6b4518-6900-4111-9f10-6b144eeb6028" />
+</div>
+Fig: Lasso regression shows reduction of non-contributing terms to 0, while ridge regression keeps some smaller weights on the weaker contributing terms. Contributing terms (√T, Ṫ) have notably higher weight values.
