@@ -37,3 +37,6 @@ python src/main.py
 ├── requirements.txt
 └── dataset-calib-imu-static2.npy   # (not tracked — download separately)
 ```
+
+## Bias Plot
+<img width="1800" height="2250" alt="image" src="https://github.com/user-attachments/assets/f6cf4030-f02e-4c0e-8b12-424ca15b7e32" />
